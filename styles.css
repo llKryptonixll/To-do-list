@@ -1,0 +1,68 @@
+body{ 
+ 	background-color: #2b2b2b; 
+	margin: 0;
+	height: 100vh;
+	font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.main-container{
+	height: 100%;
+	display: grid;
+	grid-template-rows: 30% 70%;
+	grid-template-columns: 100%;
+}
+
+.header-container{
+	height: 99%;
+	width: 100%;
+	background-image: url("/img/hd-wallpaper-g5be80ea25_1920.jpg");
+	border-bottom: 2px solid #000000;
+}
+
+.todo-main-container{
+	position: relative;
+	background-color: #ececec;
+}
+.inbox-header{
+	position: absolute;
+	left: 0;
+	padding: 10px;
+	color: #4d4d4d;
+}
+
+.todo-list-container{
+	height: 100%;
+	width: 100%;
+	display: grid;
+	justify-items: center;
+	grid-auto-rows: 100px;
+	overflow: auto;
+}
+.list-items-container{
+	margin-top: 50px;
+	height: 100%;
+	width: 80%;
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	border-bottom: 1px solid black;
+}
+.todo-icon{
+	padding: 20px;
+	border-radius: 50%;
+	border: 1px solid gray;
+	color: blue;
+}
+
+.add-todo-btn{
+	position: absolute;
+	color: #e6e6e6;
+	bottom: 0;
+	right: 0;
+	font-size: 40px;
+	padding: 10px;
+	margin: 20px;
+	background-color: #2950ce;
+	border-radius: 50%;
+	cursor: pointer;
+}
