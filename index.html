@@ -19,28 +19,49 @@
 	<!-- main section -->
 	<div class="main-container">
 		<!-- header section -->
-		<div class="header-container"></div>
+		<div class="header-container">
+			<div class="main-header">Your <br> To-do's</div>
+			<div class="todo-count">50 <br> To-do's</div>
+		</div>
 		<!-- todo section -->
 		<div class="todo-main-container">
+
 			<div class="inbox-header">INBOX</div>
 
 			<div class="todo-list-container">
 				<div class="list-items-container">
 					<i class="todo-icon fa-solid fa-vial"></i>
-					<div class="todo-description">TEST ds</div>
+					<div class="todo-description">TEST</div>
+					<i class="fa-solid fa-check todo-done-btn"></i>
 				</div>
+			</div>
+		
+		</div>
 
-				<div class="list-items-container">
-					<i class="todo-icon fa-solid fa-vial"></i>
-					<div class="todo-description">TEST ds</div>
+		<!-- add todo inputs section -->
+		<div class="add-todo-container">
+			<div class="add-todo-header">
+				<i class="fa-solid fa-arrow-left move-back-arrow"></i>
+				<div class="header-text">Add new To-do's</div>
+				<div></div>
+			</div>
+			<div class="inputs-container">
+				<div class="choose-icon">Choose Icon</div>
+				<div class="icons-container">
+					<button class="fa-solid fa-music icons"></button>
+					<button class="fa-solid fa-cart-shopping icons"></button>
+					<button class="fa-solid fa-wallet icons"></button>
+					<button class="fa-solid fa-briefcase icons"></button>
+					<button class="fa-solid fa-phone icons"></button>
 				</div>
-
+				<input class="todo-description inputs" type="text" placeholder="Add To-Do description">
 			</div>
 		</div>
 
-		<!-- add todo button / is opening a modal -->
-		<i class="add-todo-btn fa-solid fa-plus"></i>
 	</div>
+
+	<!-- add todo button / is opening a modal -->
+	<i class="add-todo-btn fa-solid fa-plus"></i>
 
  	<script src="app.js"></script> 
  </body> 
